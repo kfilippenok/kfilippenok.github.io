@@ -7,15 +7,15 @@
 #panel {
     text-align: center;
     font-family: Geneva, Arial, Helvetica, fantasy;
-    font-size: 14pt;
+    font-size: 20px;
     background-color: #011e04;
-    padding: 11.25pt;
+    padding: 15px;
 }
 
 #description {
-    padding: 7.5pt;
+    padding: 10px;
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-size: 20px;
     margin: 15pt auto;
 }
 
@@ -28,7 +28,7 @@ body {
 .content {
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    margin: 7.5pt auto;
+    margin: 10px auto;
 }
 
 a {
