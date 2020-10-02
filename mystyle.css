@@ -1,0 +1,50 @@
+#header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00c853;
+}
+
+#panel {
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, fantasy;
+    font-size: 14pt;
+    background-color: #011e04;
+    border-color: #64dd17;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 425px;
+}
+
+#description {
+    padding: 10px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin: 20px auto;
+}
+
+body {
+    background: #212121;
+    color: #ffffff
+    ;
+}
+
+.content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+}
+
+a {
+    color: #32FC8A;
+}
+
+a:visited {
+    color: #1DAE5C;
+}
+
+a:active {
+    color: #A6FFCD;
+}
