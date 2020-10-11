@@ -1,15 +1,41 @@
+@font-face {
+    font-family: Bernhard scriptC;
+    src: url(./fonts/bernhard_scriptc.ttf);
+}
+
+body {
+    background-color: #1a1919;
+    color: #ffffff;
+}
+
+a {
+    color: #e01c1c;
+}
+
+a:visited {
+    color: #ac2323;
+}
+
+a:active {
+    color: #ff4d4d;
+}
+
 #header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #00c853;
+    font-size: 40px;
+    font-family: Bernhard scriptC, Regular;
+    color: #ffd700;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 #panel {
     text-align: center;
-    font-family: Geneva, Arial, Helvetica, fantasy;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-color: #011e04;
-    padding: 15px;
+    padding: 30px;
+    background-color: #292929;
+    border-color: #ffd700;
 }
 
 #description {
@@ -17,28 +43,33 @@
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 15pt auto;
+    background-color: #2b2a2a;
+    border-radius: 7px;
 }
 
-body {
-    background: #212121;
-    color: #ffffff
-    ;
+#portrait {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+div.background-portrait {
+    background-image: url(./images/marriage_at_cana-paulo_veronese.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border-frame-quadrangle {
+    border-image-source: url(images/frame-quadrangle.png);
+    border-image-width: 20px;
+    border-image-slice: 413.5;
+    border-image-repeat: round;
+    border-style: solid;
 }
 
 .content {
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     margin: 10px auto;
-}
-
-a {
-    color: #32FC8A;
-}
-
-a:visited {
-    color: #1DAE5C;
-}
-
-a:active {
-    color: #A6FFCD;
 }
