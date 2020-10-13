@@ -25,8 +25,7 @@ a:active {
     font-size: 40px;
     font-family: Bernhard scriptC, Regular;
     color: #ffd700;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
+    text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
 
 #panel {
@@ -35,7 +34,6 @@ a:active {
     font-size: 20px;
     padding: 30px;
     background-color: #292929;
-    border-color: #ffd700;
 }
 
 #description {
