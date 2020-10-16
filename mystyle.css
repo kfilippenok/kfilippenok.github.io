@@ -20,6 +20,22 @@ a:active {
     color: #ff4d4d;
 }
 
+h2 {
+    padding: 5px;
+    font-size: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #e01c1c;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 20px;
+}
+
 #header {
     text-align: center;
     font-size: 40px;
