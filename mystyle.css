@@ -23,17 +23,22 @@ a:active {
 h2 {
     padding: 5px;
     font-size: 30px;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #e01c1c;
 }
 
 h3 {
     font-size: 25px;
 }
 
+sup {
+    color: #e01c1c;
+}
+
 ul {
     font-size: 20px;
+}
+
+dt {
+    color: red;
 }
 
 #header {
@@ -44,26 +49,33 @@ ul {
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
 
-#panel {
+#panel-main {
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 30px;
-    background-color: #292929;
+    padding: 20px;
+    background-color: #0e2346;
 }
 
-#description {
+#panel-labworks {
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #0b1931;
+}
+
+.description {
     padding: 10px;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin: 15pt auto;
-    background-color: #2b2a2a;
+    margin: 15px auto;
     border-radius: 7px;
 }
 
 #portrait {
     text-align: center;
-    margin: 10px;
+    margin-top: 10px;
     padding: 20px;
 }
 
