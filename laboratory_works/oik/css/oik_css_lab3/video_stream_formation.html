@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="description" content="Личный сайт студента ШГПУ факультета ФИМиЕН Филиппёнок Кирилла.">
+    <meta name="keywords" content="HTML, учёба, студент, ШГПУ, Филиппёнок, Кирилл">
+    <title>Цифровое видео</title>
+    <link rel="icon" href="./images//favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./mystyle.css" type="text/css">
+</head>
+<body>
+    <h1 id="header">Цифровое видео</h1>
+    <div id="panel">
+        <span class="pan-elem"><a href="./index.html">Главная страницы</a></span> 
+        <span class="pan-elem"><a href="./what_it_is.html">Что это такое</a></span> 
+        <span class="pan-elem">Формирование потока видеоданных</span>
+        <span class="pan-elem"><a href="./digital_encoding_and_compression_formats.html">Форматы цифрового кодирования и сжатия</a></span>
+        <span><a href="https://wiki2.org/ru/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE">Источник</a></span>
+    </div>
+    <div id="subpanel">
+        <span class="pan-elem">Компонентное видео</span> 
+        <span class="pan-elem"><a href="./video_levels.html">Уровни видео</a></span>
+        <span class="pan-elem"><a href="./color_subsampling.html">Цветовая субдискретизация</a></span> 
+        <span class="pan-elem"><a href="./decomposition_standards.html">Стандарты разложения</a></span>
+    </div>
+    <div style="width: 900px; margin: 0 auto;">
+        <h2>Компонентное видео</h2>
+        <p style="color: rgb(200, 200, 200)"><cite>Основная статья: <a href="https://wiki2.org/ru/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D0%B5_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE">Компонентное видео</a></cite></p>
+        <p class="content"><a href="https://wiki2.org/ru/%D0%9E%D0%BF%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5">Оп­ти­че­ское изоб­ра­же­ние</a> 
+        фор­ми­ру­ет­ся с по­мо­щью объ­ек­ти­ва на све­то­чув­стви­тель­ной мат­ри­це ви­део- и те­ле­ви­зи­он­ных камер, 
+        те­ле­ки­но­про­ек­то­ров, циф­ро­вых фо­то­ап­па­ра­тов, ка­ме­ра­фо­нов или план­ше­тов, веб-ка­мер, камер си­стем ви­део­на­блю­де­ния и дру­гих по­доб­ных устройств. 
+        С по­мо­щью раз­лич­ных си­стем про­из­во­дит­ся цве­то­де­ле­ние изоб­ра­же­ния для по­лу­че­ния мо­но­хром­ных по­лу­то­но­вых ком­по­нент трёх ос­нов­ных цве­тов.</p>
+        <p class="content">
+            <img class="rimg" src="./images/preobr.png" alt="Преобразование цветоделённых компонент RGB в Y’CrCb">
+            После применения гамма-коррекции сигналов R, G, B производится их преобразование для получения сигнала яркости Y' 
+            и двух цветоразностных сигналов: R'-Y' и B'-Y'. В соответствии с 601-й рекомендацией ITU-R применяется кодирование 
+            по следующим формулам для перевода компонентного видеосигнала в цифровую форму:
+        </p>
+        <p><img style="width: 450px; height: 90px;" src="./images/numform1.svg"  alt="Цифровая форма"></p>
+        <p class="content">
+            При передаче таких сигналов, возможно восстановление исходных составляющих цветов: красной (R), синей (B) и зелёной (G), 
+            которые используются в большинстве систем отображения видеоинформации, например в мониторах.
+        </p>
+    </div>
+    <p class="copyright">&copy; Филиппенок Кирилл Сергеевич, 2020 (<a href="https://kfilippenok.github.io">сайт</a>)</p>
+</body>
+</html>

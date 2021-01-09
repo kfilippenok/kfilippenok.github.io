@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="description" content="Личный сайт студента ШГПУ факультета ФИМиЕН Филиппёнок Кирилла.">
+    <meta name="keywords" content="HTML, учёба, студент, ШГПУ, Филиппёнок, Кирилл">
+    <title>Цифровое видео</title>
+    <link rel="icon" href="./images//favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./mystyle.css" type="text/css">
+</head>
+<body>
+    <h1 id="header">Цифровое видео</h1>
+    <div id="panel">
+        <span class="pan-elem"><a href="./index.html">Главная страницы</a></span> 
+        <span class="pan-elem"><a href="./what_it_is.html">Что это такое</a></span> 
+        <span class="pan-elem">Формирование потока видеоданных</span>
+        <span class="pan-elem"><a href="./digital_encoding_and_compression_formats.html">Форматы цифрового кодирования и сжатия</a></span>
+        <span><a href="https://wiki2.org/ru/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE">Источник</a></span>
+    </div>
+    <div id="subpanel">
+        <span class="pan-elem"><a href="./video_stream_formation.html">Компонентное видео</a></span> 
+        <span class="pan-elem">Уровни видео</span>
+        <span class="pan-elem"><a href="./color_subsampling.html">Цветовая субдискретизация</a></span> 
+        <span class="pan-elem"><a href="./decomposition_standards.html">Стандарты разложения</a></span>
+    </div>
+    <div style="width: 900px; margin: 0 auto;">
+        <h2>Уровни видео</h2>
+        <p class="content">
+            Полученные компоненты Y', Cr, Cb квантуются с <a href="https://wiki2.org/ru/%D0%A0%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D1%8C">разрядностью</a> 8 или 10 
+            <a href="https://wiki2.org/ru/%D0%91%D0%B8%D1%82">бит</a>. Однако не все уровни используются для передачи сигналов яркости. 
+            Например, для 8 битного кодирования из 256 доступных уровней только 220 используются для передачи сигнала яркости (диапазон 16-235), а остальные — для сигналов синхронизации. 
+            При 10-битном кодировании — используется 877 уровней. Для цветовых компонент используется только 225 уровней в 8-битной системе и только 897 дискретных уровней видео в 10-битной системе.
+        </p>
+    </div>
+    <p class="copyright">&copy; Филиппенок Кирилл Сергеевич, 2020 (<a href="https://kfilippenok.github.io">сайт</a>)</p>
+</body>
+</html>
