@@ -86,14 +86,6 @@ div.background-portrait {
     background-position: center;
 }
 
-.border-frame-quadrangle {
-    border-image-source: url(images/frame-quadrangle.png);
-    border-image-width: 20px;
-    border-image-slice: 413.5;
-    border-image-repeat: round;
-    border-style: solid;
-}
-
 .content {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     margin: 0;
