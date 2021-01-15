@@ -49,20 +49,52 @@ dt {
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
 
-#panel-main {
+/* Panels */
+#panel {
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 20px;
     background-color: #2b2828;
 }
-
-#panel-labworks {
+#subpanel {
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 15px;
     background-color: #131212;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.6rem;
+    background-color: #641414;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+.active {
+    background-color: #a50f0f;
+}
+
+/* Navigation */
+.nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.nav-item {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* First navigation element */
+.ni-f {
+    margin-left: 5px;
+}
+/* Last navigation element */
+.ni-l {
+    margin-right: 5px;
 }
 
 .description {
