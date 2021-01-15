@@ -41,6 +41,11 @@ dt {
     color: red;
 }
 
+/* Display classes */
+.d-inline-block {
+    display: inline-block;
+}
+
 #header {
     text-align: center;
     font-size: 40px;
