@@ -8,15 +8,15 @@ body {
     color: #ffffff;
 }
 
-a {
+.content a {
     color: #e01c1c;
 }
 
-a:visited {
+.content a:visited {
     color: #ac2323;
 }
 
-a:active {
+.content a:active {
     color: #ff4d4d;
 }
 
@@ -95,7 +95,7 @@ div.background-portrait {
 }
 
 .content {
-    text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
-    margin: 10px auto;
+    margin: 0;
+    padding: 0;
 }
