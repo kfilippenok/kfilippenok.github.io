@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0;
     background-color: #1a1919;
     color: #ffffff;
 }
@@ -20,8 +21,14 @@ body {
     color: #ff4d4d;
 }
 
+h1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 h2 {
-    padding: 5px;
     font-size: 30px;
 }
 
@@ -62,6 +69,7 @@ dt {
     background-color: #2b2828;
 }
 #subpanel {
+    margin-bottom: 10px;
     text-align: center;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -102,11 +110,6 @@ dt {
     margin-right: 5px;
 }
 
-.description {
-    padding: 10px;
-    margin: 15px;
-}
-
 #portrait {
     text-align: center;
     margin: 15px;
@@ -115,6 +118,18 @@ dt {
 .content {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin: 0;
-    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Margins for content elements */
+.content h2, 
+.content h3,
+.content ul,
+.content p,
+.content div,
+.content dt,
+.content table {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
