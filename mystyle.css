@@ -112,15 +112,7 @@ dt {
 
 #portrait {
     text-align: center;
-    margin-top: 10px;
-    padding: 20px;
-}
-
-div.background-portrait {
-    background-image: url(./images/marriage_at_cana-paulo_veronese.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin: 15px;
 }
 
 .content {
