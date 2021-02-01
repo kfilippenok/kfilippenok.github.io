@@ -3,8 +3,12 @@
     src: url(./fonts/bernhard_scriptc.ttf);
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0;
+}
+
+body {
     background-color: #1a1919;
     color: #ffffff;
 }
@@ -24,7 +28,8 @@ body {
 h1 {
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 25px;
+    padding-top: 25px;
+    margin-top: 0;
     margin-bottom: 25px;
 }
 
@@ -128,4 +133,63 @@ dt {
 .content table {
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#push-main {
+    height: 90px;
+}
+
+#footer-main {
+    font-family: Georgia, Times, serif;
+    font-size: 1em;
+    margin-top: -90px;
+    height: 90px;
+    background-color: rgb(19, 19, 19);
+}
+
+#push-other {
+    height: 50px;
+}
+
+#footer-other {
+    font-family: Georgia, Times, serif;
+    font-size: 1em;
+    margin-top: -50px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+}
+
+.link-telegram {
+    padding: 0.3em;
+    background-color: #0088cc;
+    border-radius: 1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link-vkontakte {
+    padding: 0.3em;
+    background-color: #597da3;
+    border-radius: 1px;
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+.link-github {
+    padding: 0.3em;
+    background-color: #333333;
+    border-radius: 1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-gitlab {
+    padding: 0.3em;
+    background-color: #554488;
+    border-radius: 1px;
+    color: #fca326;
+    text-decoration: none;
 }

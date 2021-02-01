@@ -11,27 +11,41 @@
     <link rel="stylesheet" href="./mystyle.css" type="text/css"/>
 </head>
 <body>
-    <h1 id="header">Личный сайт студента ШГПУ <span class="d-inline-block">Филиппёнок Кирилла.</span></h1>
-    <div id="panel">
-        <div class="nav">
-            <a class="ni-f nav-item btn active" href="./index.html">Главная страница</a>
-            <a class="ni-l nav-item btn" href="./labs.html">Лабораторные работы</a>
+    <div id="container">
+        <h1 id="header">Личный сайт студента ШГПУ <span class="d-inline-block">Филиппёнок Кирилла.</span></h1>
+        <div id="panel">
+            <div class="nav">
+                <a class="ni-f nav-item btn active" href="./index.html">Главная страница</a>
+                <a class="ni-l nav-item btn" href="./labs.html">Лабораторные работы</a>
+            </div>
         </div>
+        <div class="content">
+            <table style="margin: 0 auto;" cellpadding="0">
+                <tr>
+                    <td>
+                        <div id="portrait">
+                            <img src="./images/portrait.jpg" alt="Моё фото."/>
+                        </div>
+                        <p>Добро пожаловать на мой сайт. Меня зовут Филиппёнок Кирилл. Я студент 1 курса Шадринского государственного педагогического университета (сокр. <abbr>ШГПУ</abbr>) факультета информатики, математики и естественных наук (сокр. <abbr>ФИМиЕН,</abbr>), направление "Информатика и вычислительная техника (профиль: Программное обеспечение вычислительной техники и автоматизированных систем)". Сайт создан для практической наработки навыков по HTML 4.0.1 и CSS. Сайт размещён на <a href="https://github.com">GitHub</a> в открытом доступе, благодаря технологии <a href="https://pages.github.com">GitHub Pages</a>. Вы можете предложить исправить ошибку или что-то новое в <a href="https://github.com/kfilippenok/kfilippenok.github.io">репозитории</a>.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="push-main"></div>
     </div>
-    <div class="content">
-        <table style="margin: 0 auto;" cellpadding="0">
+    <div id="footer-main">
+        <table style="margin: 0 auto; height: 100%;">
             <tr>
-                <td>
-                    <div id="portrait">
-                        <img src="./images/portrait.jpg" alt="Моё фото."/>
-                    </div>
-                    <p>Добро пожаловать на мой сайт. Меня зовут Филиппёнок Кирилл. Я студент 1 курса Шадринского государственного педагогического университета (сокр. <abbr>ШГПУ</abbr>) факультета информатики, математики и естественных наук (сокр. <abbr>ФИМиЕН,</abbr>), направление "Информатика и вычислительная техника (профиль: Программное обеспечение вычислительной техники и автоматизированных систем)". Сайт создан для практической наработки навыков по HTML 4.0.1 и CSS. Сайт размещён на <a href="https://github.com">GitHub</a> в открытом доступе, благодаря технологии <a href="https://pages.github.com">GitHub Pages</a>. Вы можете предложить исправить ошибку или что-то новое в <a href="https://github.com/kfilippenok/kfilippenok.github.io">репозитории</a>.</p>
-                    <div style="text-align: center;">
-                        <a style="padding: 17px;" href="https://t.me/kfilippenok"><img src="./images/telegram.png" alt="Link to Telegram" width="90px" height="90px"/></a>
-                        <a style="padding: 17px;" href="https://vk.com/kfilippenok"><img src="./images/vk.png" alt="Link to VK" width="90px" height="90px"/></a>
-                        <a style="padding: 17px;" href="https://github.com/kfilippenok"><img src="./images/github.png" alt="Link to GitHub" width="90px" height="90px"/></a>
-                        <a style="padding: 17px;" href="https://gitlab.com/kfilippenok"><img src="./images/gitlab.png" alt="Link to GitLab" width="90px" height="90px"/> </a>
-                    </div>
+                <td style="text-align: center;">
+                    <a href="https://t.me/kfilippenok" class="link-telegram" style="margin-right: 7px;">Telegram</a>
+                    <a href="https://vk.com/kfilippenok" class="link-vkontakte" style="margin-right: 7px;">VKontakte</a>
+                    <a href="https://github.com/kfilippenok" class="link-github" style="margin-right: 7px;">GitHub</a>
+                    <a href="https://gitlab.com/kfilippenok" class="link-gitlab" style="margin-right: 7px;">GitLub</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    &copy; Филиппёнок Кирилл Сергеевич 2020&mdash;2021 
                 </td>
             </tr>
         </table>
