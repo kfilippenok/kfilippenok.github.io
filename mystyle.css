@@ -42,6 +42,16 @@ h3 {
     font-size: 1.15em;
 }
 
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 15px;
+}
+
+p.indent {
+    margin-bottom: 20px;
+}
+
 sup {
     color: #e01c1c;
 }
@@ -129,7 +139,6 @@ dt {
 .content h2, 
 .content h3,
 .content ul,
-.content p,
 .content div,
 .content dt,
 .content table {
