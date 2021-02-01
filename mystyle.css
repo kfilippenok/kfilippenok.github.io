@@ -26,6 +26,7 @@ body {
 }
 
 h1 {
+    font-size: 1.45em;
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 25px;
@@ -34,11 +35,11 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.3em;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 1.15em;
 }
 
 sup {
@@ -56,7 +57,7 @@ dt {
 
 #header {
     text-align: center;
-    font-size: 40px;
+    font-size: 2em;
     font-family: Bernhard scriptC, Regular;
     color: #ffd700;
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
@@ -65,15 +66,15 @@ dt {
 /* Panels */
 #panel {
     text-align: center;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
     background-color: #2b2828;
 }
 #subpanel {
     margin-bottom: 10px;
     text-align: center;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
     background-color: #131212;
 }
 
@@ -117,8 +118,8 @@ dt {
 }
 
 .content {
-    font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -144,7 +145,7 @@ dt {
 }
 
 #footer-main {
-    font-family: Georgia, Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     margin-top: -90px;
     height: 90px;
@@ -156,7 +157,7 @@ dt {
 }
 
 #footer-other {
-    font-family: Georgia, Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     margin-top: -50px;
     height: 50px;
