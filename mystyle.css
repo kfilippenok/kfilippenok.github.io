@@ -87,13 +87,13 @@ dt {
 }
 
 /* Panels */
-#panel {
+#menu {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     background-color: #2b2828;
 }
-#subpanel {
+#submenu {
     margin-bottom: 10px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -101,38 +101,33 @@ dt {
     background-color: #131212;
 }
 
-/* Buttons */
-.btn {
-    padding: 0.5em;
-    background-color: #641414;
-    border-radius: 1px;
-    color: white;
-    text-decoration: none;
+#menu ul,
+#submenu ul {
+    margin:0;
+    padding:0;
+    list-style: none;
 }
-.active {
-    background-color: #a50f0f;
-}
-
-/* Navigation */
-.nav {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-.nav-item {
+#menu ul li,
+#submenu ul li {
     display: inline-block;
+}
+#menu ul li a,
+#submenu ul li a {
+    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
+    padding: 0.5em;
+    background-color: #641414;
+    border-radius: 1px;
+    color: #ffffff;
+    text-decoration: none;
 }
-/* First navigation element */
-.ni-f {
-    margin-left: 5px;
-}
-/* Last navigation element */
-.ni-l {
-    margin-right: 5px;
+
+#menu ul li a.active,
+#submenu ul li a.active {
+    background-color: #a50f0f;
 }
 
 #portrait {
