@@ -60,6 +60,19 @@ dt {
     color: red;
 }
 
+ table {
+     padding: 0;
+     margin: 0;
+     border-collapse: separate;
+     border-spacing: 0;
+ }
+
+ tr,
+ td {
+     margin: 0;
+     padding: 0;
+ }
+
 /* Display classes */
 .d-inline-block {
     display: inline-block;
