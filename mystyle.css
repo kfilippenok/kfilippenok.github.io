@@ -151,26 +151,26 @@ dt {
 }
 
 #push-main {
-    height: 90px;
+    height: 5.5em;
 }
 
 #footer-main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    margin-top: -90px;
-    height: 90px;
+    margin-top: -5.5em;
+    height: 5.5em;
     background-color: rgb(19, 19, 19);
 }
 
 #push-other {
-    height: 50px;
+    height: 2.5em;
 }
 
 #footer-other {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    margin-top: -50px;
-    height: 50px;
+    margin-top: -2.5em;
+    height: 2.5em;
     background-color: rgb(19, 19, 19);
 }
 
