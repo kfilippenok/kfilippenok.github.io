@@ -175,6 +175,10 @@ dt {
 }
 
 .link-telegram {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     padding: 0.3em;
     background-color: #0088cc;
     border-radius: 1px;
@@ -182,6 +186,10 @@ dt {
     text-decoration: none;
 }
 .link-vkontakte {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     padding: 0.3em;
     background-color: #597da3;
     border-radius: 1px;
@@ -190,6 +198,10 @@ dt {
 } 
 
 .link-github {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     padding: 0.3em;
     background-color: #333333;
     border-radius: 1px;
@@ -198,6 +210,10 @@ dt {
 }
 
 .link-gitlab {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
     padding: 0.3em;
     background-color: #554488;
     border-radius: 1px;
