@@ -21,8 +21,12 @@ body {
     color: #ac2323;
 }
 
+.content a:hover {
+    color: #ff5858;
+}
+
 .content a:active {
-    color: #ff4d4d;
+    color: #db3c3c;
 }
 
 h1 {
@@ -60,18 +64,18 @@ dt {
     color: red;
 }
 
- table {
-     padding: 0;
-     margin: 0;
-     border-collapse: separate;
-     border-spacing: 0;
- }
+table {
+    padding: 0;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
 
- tr,
- td {
-     margin: 0;
-     padding: 0;
- }
+tr,
+td {
+    margin: 0;
+    padding: 0;
+}
 
 /* Display classes */
 .d-inline-block {
@@ -86,7 +90,7 @@ dt {
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
 
-/* Panels */
+/* Menu */
 #menu {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,7 +104,6 @@ dt {
     font-size: 1em;
     background-color: #131212;
 }
-
 #menu ul,
 #submenu ul {
     margin:0;
@@ -111,6 +114,7 @@ dt {
 #submenu ul li {
     display: inline-block;
 }
+/* Menu links */
 #menu ul li a,
 #submenu ul li a {
     display: block;
@@ -124,10 +128,23 @@ dt {
     color: #ffffff;
     text-decoration: none;
 }
-
 #menu ul li a.active,
 #submenu ul li a.active {
     background-color: #a50f0f;
+}
+#menu ul li a:hover,
+#submenu ul li a:hover {
+    padding: 0.4em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ffd700;
+}
+#menu ul li a:active,
+#submenu ul li a:active {
+    padding: 0.38em;
+    border-width: 0.12em;
+    border-style: dashed;
+    border-color: #ffd700;
 }
 
 #portrait {
@@ -158,6 +175,7 @@ dt {
     min-height: 100%;
 }
 
+/* Footer */
 #push-main {
     height: 5.5em;
 }
@@ -182,7 +200,8 @@ dt {
     background-color: rgb(19, 19, 19);
 }
 
-.link-telegram {
+/* Footer links */
+a.link-telegram {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -193,7 +212,7 @@ dt {
     color: #ffffff;
     text-decoration: none;
 }
-.link-vkontakte {
+a.link-vkontakte {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -204,8 +223,7 @@ dt {
     color: #ffffff;
     text-decoration: none;
 } 
-
-.link-github {
+a.link-github {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -216,8 +234,7 @@ dt {
     color: #ffffff;
     text-decoration: none;
 }
-
-.link-gitlab {
+a.link-gitlab {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -227,4 +244,24 @@ dt {
     border-radius: 1px;
     color: #fca326;
     text-decoration: none;
+}
+/* a:hover of footer links */
+a:hover.link-telegram,
+a:hover.link-vkontakte,
+a:hover.link-github,
+a:hover.link-gitlab {
+    padding: 0.2em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ffd700;
+}
+/* a:active of footer links */
+a:active.link-telegram,
+a:active.link-vkontakte,
+a:active.link-github,
+a:active.link-gitlab {
+    padding: 0.18em;
+    border-width: 0.12em;
+    border-style: dashed;
+    border-color: #ffd700;
 }
