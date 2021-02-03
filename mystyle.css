@@ -15,18 +15,23 @@ body {
 
 .content a {
     color: #e01c1c;
+    text-decoration: none;
 }
 
 .content a:visited {
     color: #ac2323;
+    text-decoration: none;
 }
 
 .content a:hover {
-    color: #ff5858;
+    color: #ff4a4a;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
 }
 
 .content a:active {
-    color: #db3c3c;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
 }
 
 h1 {
@@ -141,10 +146,20 @@ td {
 }
 #menu ul li a:active,
 #submenu ul li a:active {
-    padding: 0.38em;
-    border-width: 0.12em;
-    border-style: dashed;
+    padding: 0.4em;
+    border-width: 0.1em;
+    border-style: solid;
     border-color: #ffd700;
+    background-color: #490d0d;
+}
+
+#menu ul li a:active.active,
+#submenu ul li a:active.active {
+    padding: 0.4em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ffd700;
+    background-color: #800f0f;
 }
 
 #portrait {
@@ -260,8 +275,20 @@ a:active.link-telegram,
 a:active.link-vkontakte,
 a:active.link-github,
 a:active.link-gitlab {
-    padding: 0.18em;
-    border-width: 0.12em;
-    border-style: dashed;
+    padding: 0.2em;
+    border-width: 0.1em;
+    border-style: solid;
     border-color: #ffd700;
+}
+a:active.link-telegram {
+    background-color: #0178b4;
+}
+a:active.link-vkontakte {
+    background-color: #405872;
+}
+a:active.link-github {
+    background-color: #252525;
+}
+a:active.link-gitlab {
+    background-color: #413466;
 }
