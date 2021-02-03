@@ -165,7 +165,7 @@ td {
 .content h3,
 .content ul,
 .content div,
-.content dt,
+.content dl,
 .content table {
     margin-top: 0;
     margin-bottom: 20px;
