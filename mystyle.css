@@ -25,13 +25,11 @@ body {
 
 .content a:hover {
     color: #ff4a4a;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
 .content a:active {
-    text-decoration-style: solid;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
 h1 {
