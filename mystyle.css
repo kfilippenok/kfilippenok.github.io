@@ -129,7 +129,6 @@ td {
     margin-right: 5px;
     padding: 0.5em;
     background-color: #641414;
-    border-radius: 1px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -223,7 +222,6 @@ a.link-telegram {
     margin-right: 5px;
     padding: 0.3em;
     background-color: #0088cc;
-    border-radius: 1px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -234,7 +232,6 @@ a.link-vkontakte {
     margin-right: 5px;
     padding: 0.3em;
     background-color: #597da3;
-    border-radius: 1px;
     color: #ffffff;
     text-decoration: none;
 } 
@@ -245,7 +242,6 @@ a.link-github {
     margin-right: 5px;
     padding: 0.3em;
     background-color: #333333;
-    border-radius: 1px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -256,7 +252,6 @@ a.link-gitlab {
     margin-right: 5px;
     padding: 0.3em;
     background-color: #554488;
-    border-radius: 1px;
     color: #fca326;
     text-decoration: none;
 }
