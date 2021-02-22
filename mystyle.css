@@ -92,6 +92,17 @@ td {
     color: #ffd700;
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
+#header a {
+    text-decoration: none;
+    color: #ffd700;
+    text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
+}
+#header a:hover {
+    color: #ffdf2c;
+}
+#header a:active {
+    color: #d8bb14;
+}
 
 /* Menu */
 #menu {
