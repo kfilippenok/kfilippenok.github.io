@@ -165,6 +165,18 @@ td {
     margin-bottom: 15px;
 }
 
+.description {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #360e0e;
+}
+.description-content {
+    display: table;
+    padding: 0.9em;
+    margin: 0 auto;
+}
+
 .content {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
