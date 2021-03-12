@@ -67,15 +67,21 @@ dt {
     color: red;
 }
 
-table {
+.content table,
+.footer-other table,
+.footer-main table {
     padding: 0;
     margin: 0;
     border-collapse: separate;
     border-spacing: 0;
 }
 
-tr,
-td {
+.content tr,
+.content td,
+.footer-other tr,
+.footer-other td,
+.footer-main tr,
+.footer-main td {
     margin: 0;
     padding: 0;
 }
@@ -307,4 +313,135 @@ a:active.link-github {
 }
 a:active.link-gitlab {
     background-color: #413466;
+}
+
+#history {
+    margin: auto;
+    padding: 0;
+    width: 75%;
+    padding: 2.5px;
+}
+#history table {
+    margin: 0 auto;
+}
+#history caption {
+    margin: 0;
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#history .node {
+    display: block;
+    padding: 2.5px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+#history .node .header {
+    text-align: center;
+    color: #ffffff;
+    background-color: #154585;
+    display: block;
+    font-size: 1.05em;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+#history .node .date {
+    margin-bottom: 5px;
+    display: inline-block;
+    margin: 0;
+}
+#history .node .time {
+    margin-bottom: 5px;
+    display: inline-block;
+    margin: 0;
+}
+#history .node .timezone {
+    margin-bottom: 5px;
+    display: inline-block;
+    margin: 0;
+}
+#history .node .text {
+    padding: 7.5px;
+    display: block;
+    margin: 0;
+    background-color: #242424;
+}
+#history .node .text .mini-header {
+    font-size: 1em;
+    padding-left: 7px;
+    border-left: #1637a3 4px solid;
+    margin: 0;
+}
+#history .node .text ul {
+    display: block;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 37px;
+    padding: 0;
+}
+#history .node .text ul ul {
+    margin-top: 0;
+    margin-left: 20px;
+    padding: 0px;
+}
+#history .more {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li a.his-active {
+    background-color: #2145bd;
+}
+
+#nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+}
+#nav ul {
+    margin: 3px;
+    padding: 0;
+    list-style: none;
+}
+#nav ul li {
+    display: inline-block;
+}
+/* Menu links */
+#nav ul li a {
+    display: block;
+    padding: 0.3em;
+    margin: 3px;
+    background-color: #555555;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav ul li a.active {
+    background-color: #2e2e2e;
+}
+#nav ul li a:hover {
+    padding: 0.2em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ffd700;
+}
+#nav ul li a:active {
+    padding: 0.2em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ffd700;
+    background-color: #383838;
+}
+#nav ul li a:active.active {
+    padding: 0.2em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #ffd700;
+    background-color: #727272;
 }
