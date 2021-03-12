@@ -198,8 +198,6 @@ dt {
 .content {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 /* Margins for content elements */
@@ -319,7 +317,7 @@ a:active.link-gitlab {
 #history {
     margin: auto;
     padding: 0;
-    width: 75%;
+    width: 85%;
     padding: 2.5px;
 }
 #history table {
