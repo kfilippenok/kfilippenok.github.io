@@ -190,7 +190,8 @@ dt {
 }
 .description-content {
     display: table;
-    padding: 0.9em;
+    font-size: 1em;
+    padding: 0.7em;
     margin: 0 auto;
 }
 
