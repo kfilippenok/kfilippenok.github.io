@@ -315,6 +315,7 @@ a:active.link-gitlab {
 }
 
 #history {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
     padding: 0;
     width: 85%;
@@ -346,7 +347,7 @@ a:active.link-gitlab {
     font-size: 1.05em;
     font-weight: bold;
     margin: 0;
-    padding: 5px;
+    padding: 7.5px;
 }
 #history .node .date {
     margin-bottom: 5px;
