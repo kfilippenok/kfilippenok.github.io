@@ -55,7 +55,16 @@ p {
     text-indent: 15px;
 }
 
-p.indent {
+.indent-5px {
+    margin-bottom: 10px;
+}
+.indent-10px {
+    margin-bottom: 20px;
+}
+.indent-15px {
+    margin-bottom: 20px;
+}
+.indent-20px {
     margin-bottom: 20px;
 }
 
@@ -118,7 +127,7 @@ dt {
     background-color: #2b2828;
 }
 #submenu {
-    margin-bottom: 10px;
+    margin: 0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -201,15 +210,7 @@ dt {
 }
 
 /* Margins for content elements */
-.content h2, 
-.content h3,
-.content ul,
-.content div,
-.content dl,
-.content table {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
+
 
 #container {
     min-height: 100%;
@@ -376,19 +377,6 @@ a:active.link-gitlab {
     border-left: #1637a3 4px solid;
     margin: 0;
 }
-#history .node .text ul {
-    display: block;
-    margin-top: 5px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 37px;
-    padding: 0;
-}
-#history .node .text ul ul {
-    margin-top: 0;
-    margin-left: 20px;
-    padding: 0px;
-}
 #history .more {
     width: 100%;
     text-align: right;
@@ -444,4 +432,10 @@ a:active.link-gitlab {
     border-style: solid;
     border-color: #ffd700;
     background-color: #727272;
+}
+
+.miniprogram {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
