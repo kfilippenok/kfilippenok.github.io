@@ -218,6 +218,7 @@ dt {
 
 /* Footer */
 #push-main {
+    margin-top: 20px;
     height: 5.5em;
 }
 
@@ -230,6 +231,7 @@ dt {
 }
 
 #push-other {
+    margin-top: 20px;
     height: 2.5em;
 }
 
