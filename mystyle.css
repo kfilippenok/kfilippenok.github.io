@@ -104,12 +104,12 @@ dt {
     text-align: center;
     font-size: 2em;
     font-family: Bernhard scriptC, Regular;
-    color: #ffd700;
+    color: #f1cd00;
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
 #header a {
     text-decoration: none;
-    color: #ffd700;
+    color: #f1cd00;
     text-shadow: -1px 0 0.5px black, 0 1px 0.5px black;
 }
 #header a:hover {
