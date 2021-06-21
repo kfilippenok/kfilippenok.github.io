@@ -137,6 +137,7 @@ dt {
 #submenu ul {
     margin:0;
     padding:0;
+    height: 3.3em;
     list-style: none;
 }
 #menu ul li,
@@ -147,10 +148,10 @@ dt {
 #menu ul li a,
 #submenu ul li a {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 0.56em;
+    margin-bottom: 0.56em;
+    margin-left: 0.28em;
+    margin-right: 0.28em;
     padding: 0.5em;
     background-color: #641414;
     color: #eeeeee;
