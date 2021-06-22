@@ -9,8 +9,8 @@ html, body {
 }
 
 body {
-    background-color: #1a1919;
-    color: #d5d5d5;
+    background-color: #1e1e1e;
+    color: #edf0f0;
 }
 
 .content a {
@@ -124,7 +124,7 @@ dt {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    background-color: #2b2828;
+    background-color: #333333;
 }
 #submenu {
     margin: 0;
@@ -388,6 +388,10 @@ a:active.link-gitlab {
 }
 #nav ul li a.his-active {
     background-color: #2145bd;
+}
+
+#nav ul li a.his-active:active {
+    background-color: #162a6e;
 }
 
 #nav {
