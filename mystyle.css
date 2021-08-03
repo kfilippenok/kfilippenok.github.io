@@ -153,7 +153,8 @@ dt {
     margin-left: 0.28em;
     margin-right: 0.28em;
     padding: 0.5em;
-    background-color: #641414;
+    border-radius: 0.20em;
+    background-color: #911414;
     color: #eeeeee;
     text-decoration: none;
 }
@@ -164,6 +165,7 @@ dt {
 #menu ul li a:hover,
 #submenu ul li a:hover {
     padding: 0.4em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
@@ -171,6 +173,7 @@ dt {
 #menu ul li a:active,
 #submenu ul li a:active {
     padding: 0.4em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
@@ -180,6 +183,7 @@ dt {
 #menu ul li a:active.active,
 #submenu ul li a:active.active {
     padding: 0.4em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
@@ -251,6 +255,7 @@ a.link-telegram {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 0.3em;
+    border-radius: 0.20em;
     background-color: #0088cc;
     color: #ffffff;
     text-decoration: none;
@@ -261,6 +266,7 @@ a.link-vkontakte {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 0.3em;
+    border-radius: 0.20em;
     background-color: #597da3;
     color: #ffffff;
     text-decoration: none;
@@ -271,6 +277,7 @@ a.link-github {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 0.3em;
+    border-radius: 0.20em;
     background-color: #333333;
     color: #ffffff;
     text-decoration: none;
@@ -281,6 +288,7 @@ a.link-gitlab {
     margin-bottom: 5px;
     margin-right: 5px;
     padding: 0.3em;
+    border-radius: 0.20em;
     background-color: #554488;
     color: #fca326;
     text-decoration: none;
@@ -291,6 +299,7 @@ a:hover.link-vkontakte,
 a:hover.link-github,
 a:hover.link-gitlab {
     padding: 0.2em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
@@ -301,6 +310,7 @@ a:active.link-vkontakte,
 a:active.link-github,
 a:active.link-gitlab {
     padding: 0.2em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
@@ -412,22 +422,26 @@ a:active.link-gitlab {
     display: block;
     padding: 0.3em;
     margin: 3px;
+    border-radius: 0.20em;
     background-color: #555555;
     color: #ffffff;
     text-decoration: none;
 }
 
 #nav ul li a.active {
+    border-radius: 0.20em;
     background-color: #2e2e2e;
 }
 #nav ul li a:hover {
     padding: 0.2em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
 }
 #nav ul li a:active {
     padding: 0.2em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
@@ -435,6 +449,7 @@ a:active.link-gitlab {
 }
 #nav ul li a:active.active {
     padding: 0.2em;
+    border-radius: 0.20em;
     border-width: 0.1em;
     border-style: solid;
     border-color: #ffd700;
