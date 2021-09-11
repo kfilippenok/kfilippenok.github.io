@@ -153,40 +153,23 @@ dt {
     margin-right: 0.28em;
     padding: 0.5em;
     border-radius: 0.20em;
-    background-color: #911414;
+    background-color: #800f0f;
     color: #eeeeee;
     text-decoration: none;
 }
 #menu ul li a.active,
 #submenu ul li a.active {
-    background-color: #a50f0f;
-}
-#menu ul li a:hover,
-#submenu ul li a:hover {
-    padding: 0.4em;
-    border-radius: 0.20em;
-    border-width: 0.1em;
-    border-style: solid;
-    border-color: #ffd700;
-}
-#menu ul li a:active,
-#submenu ul li a:active {
-    padding: 0.4em;
-    border-radius: 0.20em;
-    border-width: 0.1em;
-    border-style: solid;
-    border-color: #ffd700;
-    background-color: #490d0d;
+    background-color: #a71a1a;
 }
 
-#menu ul li a:active.active,
-#submenu ul li a:active.active {
-    padding: 0.4em;
-    border-radius: 0.20em;
-    border-width: 0.1em;
-    border-style: solid;
-    border-color: #ffd700;
-    background-color: #800f0f;
+#menu ul li a.active:active,
+#submenu ul li a.active:active {
+    background-color: #811919;
+}
+
+#menu ul li a:active,
+#submenu ul li a:active {
+    background-color: #640c0c;
 }
 
 #portrait {
@@ -292,30 +275,8 @@ a.link-gitlab {
     color: #fca326;
     text-decoration: none;
 }
-/* a:hover of footer links */
-a:hover.link-telegram,
-a:hover.link-vkontakte,
-a:hover.link-github,
-a:hover.link-gitlab {
-    padding: 0.2em;
-    border-radius: 0.20em;
-    border-width: 0.1em;
-    border-style: solid;
-    border-color: #ffd700;
-}
-/* a:active of footer links */
-a:active.link-telegram,
-a:active.link-vkontakte,
-a:active.link-github,
-a:active.link-gitlab {
-    padding: 0.2em;
-    border-radius: 0.20em;
-    border-width: 0.1em;
-    border-style: solid;
-    border-color: #ffd700;
-}
 a:active.link-telegram {
-    background-color: #0178b4;
+    background-color: #026ea3;
 }
 a:active.link-vkontakte {
     background-color: #405872;
