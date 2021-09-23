@@ -421,3 +421,9 @@ a:active.link-gitlab {
     margin: 0;
     padding: 0;
 }
+
+.content img {
+    max-width: 95%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
