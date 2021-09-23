@@ -121,14 +121,14 @@ dt {
 /* Menu */
 #menu {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     background-color: #333333;
 }
 #submenu {
     margin: 0;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     background-color: #131212;
 }
@@ -192,7 +192,7 @@ dt {
 }
 
 .content {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
@@ -210,7 +210,7 @@ dt {
 }
 
 #footer-main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: -5.5em;
     height: 5.5em;
@@ -223,7 +223,7 @@ dt {
 }
 
 #footer-other {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: -2.5em;
     height: 2.5em;
@@ -289,7 +289,7 @@ a:active.link-gitlab {
 }
 
 #history {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding: 0;
     width: 85%;
@@ -365,7 +365,7 @@ a:active.link-gitlab {
 }
 
 #nav {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: center;
 }
